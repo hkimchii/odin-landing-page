@@ -3,7 +3,13 @@
 body {
     display: flex;
     flex-direction: column;
+    font-family: 'Roboto', sans-serif;
     margin: 0;
+}
+
+h1 {
+    font-size: 48px;
+    font-weight: 800;
 }
 
 a {
@@ -21,10 +27,15 @@ a {
     background-repeat: repeat;
     display: flex;
     flex-direction: column;
+    height: 500px;
+}
+
+.logo {
+    padding: ;
 }
 
 .nav {
-    margin: 0 200px;
+    margin-bottom: 100px;
     display: flex;
     align-items: center;
     justify-content: space-between;    
@@ -38,5 +49,17 @@ a {
 
 .section-header {
     display: flex;
+    margin: 0 300px;
+    justify-content: space-between;
+}
+
+.header-text {
+    flex: 1;
+}
+
+.header-art {
+    display: flex;
+    justify-content: center;
+    flex: 1;
 }
 
