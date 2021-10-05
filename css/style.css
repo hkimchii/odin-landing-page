@@ -76,7 +76,7 @@ footer {
   display: flex;
   margin: 0 250px;
   justify-content: center;
-  gap: 200px;
+  gap: 100px;
 }
 
 .header-text {
@@ -86,7 +86,7 @@ footer {
   flex-direction: column;
   flex: 1;
   font-weight: 400;
-  min-width: 408px;
+  padding-right: 90px;
 }
 
 .header-text-p {
