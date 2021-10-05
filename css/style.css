@@ -15,6 +15,19 @@ h1 {
   margin-bottom: 35px;
 }
 
+h2 {
+    color: #ed8a68;
+    font-size: 36px;
+    text-align: center;
+    margin: 70px 0;
+}
+
+h4 {
+    margin-bottom: 5px;
+    font-weight: bolder;
+    font-size: 18px;
+}
+
 ul {
   height: 85px;
 }
@@ -23,6 +36,12 @@ a {
   text-decoration: none;
   color: #ed8a68;
   font-weight: 500;
+}
+
+footer {
+    background-image: url("../images/background-small.jpg");
+    text-align: center;
+    color: ;
 }
 
 /* Class selectors */
@@ -102,6 +121,7 @@ a {
   display: flex;
   flex-direction: column;
   justify-content: center;
+  margin-bottom: 100px;
 }
 
 .section-one-content {
@@ -112,6 +132,83 @@ a {
   gap: 20px;
 }
 
+.item-image {
+    border: 6px solid #ed8a68;
+    border-radius: 25px;
+}
+
 .item {
-    margin: 0;
+    text-align: center;
+    width: 180px;
+}
+
+.item-text {
+    color: #ed8a68;
+}
+
+.section-two-background {
+    background-color: #ffe8e0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.section-two {
+    width: 50%;
+    margin: 110px 0 110px 0;
+}
+
+.quote {
+    font-size: 36px;
+    font-style: italic;
+    font-weight: 300;
+    margin-bottom: 0;
+    text-align: justify;
+}
+
+.author {
+    font-size: 24px;
+    font-weight: bold;
+    margin-top: 0;
+    text-align: right;
+}
+
+.section-three {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 120px 0;
+}
+.section-three-container {
+    display: flex;
+    width: 55%;
+    background-color: #ed8a68;
+    color: white;
+    border-radius: 10px;
+    align-items: center;
+    justify-content: space-around;
+    padding: 20px 30px;
+}
+
+.section-three-p {
+    margin-top: 0;
+    font-size: 14px;
+}
+
+.section-three-container .btn {
+    -webkit-border-radius: 10;
+    -moz-border-radius: 10;
+    border-radius: 10px;
+    font-family: Arial;
+    color: #ffffff;
+    font-size: 16px;
+    background: #ed8a68;
+    padding: 7px 22px 7px 22px;
+    border: solid #ffffff 2px;
+    text-decoration: none;
+  }
+  
+  .section-three-container .btn:hover {
+    background: #eda993;
+    text-decoration: none;
 }
