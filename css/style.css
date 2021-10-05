@@ -19,7 +19,7 @@ h2 {
     color: #ed8a68;
     font-size: 36px;
     text-align: center;
-    margin: 70px 0;
+    margin-bottom: 100px;
 }
 
 h4 {
@@ -76,7 +76,7 @@ footer {
   display: flex;
   margin: 0 250px;
   justify-content: center;
-  gap: 100px;
+  gap: 200px;
 }
 
 .header-text {
@@ -86,13 +86,14 @@ footer {
   flex-direction: column;
   flex: 1;
   font-weight: 400;
-  padding-right: 80px;
+  min-width: 408px;
 }
 
 .header-text-p {
   font-size: 18px;
   margin-top: 0;
   margin-bottom: 50px;
+  text-align: justify;
 }
 
 .btn {
@@ -121,7 +122,7 @@ footer {
   display: flex;
   flex-direction: column;
   justify-content: center;
-  margin-bottom: 100px;
+  padding: 80px 0 150px 0;
 }
 
 .section-one-content {
@@ -151,11 +152,11 @@ footer {
     display: flex;
     align-items: center;
     justify-content: center;
+    padding: 170px 0;
 }
 
 .section-two {
     width: 50%;
-    margin: 110px 0 110px 0;
 }
 
 .quote {
@@ -177,7 +178,7 @@ footer {
     display: flex;
     align-items: center;
     justify-content: center;
-    padding: 120px 0;
+    padding: 180px 0;
 }
 .section-three-container {
     display: flex;
