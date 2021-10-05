@@ -39,7 +39,7 @@ a {
 }
 
 footer {
-    background-image: url("../images/background-small.jpg");
+    background-color: #ffe8e0;
     text-align: center;
     color: ;
 }
@@ -48,10 +48,13 @@ footer {
 
 .logo {
   width: 200px;
+  font-size: 25px;
+  margin-top: 0;
+  color: #ed8a68;
 }
 
 .header-container {
-  background-image: url("../images/background-small.jpg");
+  background-color:#ffe8e0;
   background-repeat: repeat;
   display: flex;
   flex-direction: column;
